@@ -277,10 +277,9 @@ Points relevés à la lecture du code, à traiter pour une mise en production :
 - Notifications par e-mail lors de la validation d'une demande
 - Tests automatisés et intégration continue
 
-## Author
-  **Mohamed** 
-  GitHub: [@Mohamed4t](
-https://github.com/Mohamed4t
+## Author <br>
+  **Mohamed** <br>
+  GitHub: [@Mohamed4t]
 ---
 
 <div align="center">
