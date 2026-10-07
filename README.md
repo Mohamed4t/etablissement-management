@@ -277,11 +277,12 @@ Points relevés à la lecture du code, à traiter pour une mise en production :
 - Notifications par e-mail lors de la validation d'une demande
 - Tests automatisés et intégration continue
 
-## Author 
-  **Mohamed** 
-  GitHub: [@Mohamed4t](
-https://github.com/Mohamed4t
----
+## Auteur
+
+**Mohamed**
+
+[![GitHub](https://img.shields.io/badge/GitHub-Mohamed4t-181717?logo=github)](https://github.com/Mohamed4t)
+
 
 <div align="center">
   <sub>EcoleLangue · Projet de gestion d'établissement de langues</sub>
