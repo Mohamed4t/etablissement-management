@@ -91,10 +91,10 @@ EcoleLangue met en relation deux types d'utilisateurs :
 | Couche | Technologie |
 |---|---|
 | Back-end | PHP 8 (procédural), PDO |
-| Base de données | MySQL / MariaDB (InnoDB, utf8mb4) |
-| Front-end | HTML5, CSS3, Bootstrap 5.3 (CDN) |
+| Base de données | MySQL / MariaDB |
+| Front-end | HTML5, CSS3, Bootstrap (CDN) |
 | Icônes | Tabler Icons (CDN) |
-| Environnement conseillé | XAMPP / WAMP / Laragon ou `php -S` |
+| Environnement conseillé | XAMPP / WAMP |
 
 ## Structure du projet
 
@@ -232,23 +232,6 @@ erDiagram
     }
 ```
 
-## Parcours d'une inscription
-
-```mermaid
-sequenceDiagram
-    actor E as Étudiant
-    participant A as Application
-    actor Ad as Administrateur
-
-    E->>A: Choisit un cours (inscription.php)
-    A->>A: Vérifie places et doublon, crée la demande « en attente »
-    A-->>E: Visible dans « Mes demandes »
-    Ad->>A: Valide la demande (cousnonvalid.php)
-    A->>A: Statut → « confirmé »
-    Ad->>A: Enregistre le paiement
-    A->>A: Paiement → « payé »
-    Note over E,Ad: Une annulation restitue la place au cours
-```
 
 ## Sécurité
 
